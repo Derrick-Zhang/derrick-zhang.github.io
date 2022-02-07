@@ -15,7 +15,7 @@ A **sheave** (of abelian groups) is a three-tuple $Sh = (S, \pi, X)$ satisfying:
 Usually we can define sheaves of any sets. But to talk about cohomology groups of $X$ with sheaf coefficients, the stalk has to be either a module or an abelian group.
 
 ## Sheaf homomorphism
-Give two sheaves $Sh = (S, \pi, X)$ and $\widetilde{Sh} = (\widetilde{S}, \widetilde{\pi}, X)$, a homomorphism $h: Sh \to \widetilde{Sh}$ means
+Given two sheaves $Sh = (S, \pi, X)$ and $\widetilde{Sh} = (\widetilde{S}, \widetilde{\pi}, X)$, a homomorphism $h: Sh \to \widetilde{Sh}$ means
 - $h: S \to \widetilde{S}$ is continuous
 - $\pi = \widetilde{\pi} h$, $h$ maps the stalk $S_x$ to $\widetilde{S}_x$, $\forall x \in X$
 - $\forall x \in X$, the restriction $h_x: S_x \to \widetilde{S}_x$ is a homomorphism
