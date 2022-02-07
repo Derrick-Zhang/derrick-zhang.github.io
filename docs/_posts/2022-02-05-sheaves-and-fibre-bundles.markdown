@@ -41,7 +41,7 @@ One simple example of sheaves is the **sheaf of sections of a vector bundle**, w
 ## Sheafification
 Given a presheaf, we can construct a sheaf using a process called **sheafification**. Before introducing sheafification, we need to know what is a direct limit.
 
-A direct set is given by $\langle I, \le \rangle$. $\\{A_i \| i \in I \\}$ is a family of objects indexed by $i$ and $f_ij: A_i \to A_j$ is a homomorphism for any $i \le j$ such that
+A direct set is given by $\langle I, \le \rangle$. $\\{A_i \| i \in I \\}$ is a family of objects indexed by $i$ and $f_{ij}: A_i \to A_j$ is a homomorphism for any $i \le j$ such that
 - $f_{ii} = {\rm id}\_{A_i}$ 
 - $f_{ik} = f_{jk} \circ f_{ij}$, for $i \le j \le k$
 Then, the pair $\langle A_i, f_{ij}\rangle$ is called a **direct system** over $I$. The **direct limit** of a direct system is given by $\lim$
