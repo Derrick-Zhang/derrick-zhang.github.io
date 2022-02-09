@@ -28,4 +28,4 @@ Note especially that it is not claimed that the latter sequence is a full short 
 If $\mathcal{S}$ and $\mathcal{J}$ are sheaves of $\mathcal{R}$-modules, their **direct sum** is the sheaf of $\mathcal{R}$-modules defined by the presheaf $\\{\mathcal{S}\_U \oplus \mathcal{J}\_U\\}$, and will be denoted by $\mathcal{S} \oplus \mathcal{J}$; this sheaf can be identified in the obvious manner with the sheaf $\mathcal{S} \circ \mathcal{J}$ considered earlier. A particularly simple example is the sheaf of $\mathcal{R}$-modules $\mathcal{R}^m = \mathcal{R} \oplus \dots \oplus \mathcal{R}$, the direct sum of $m$ copies of the sheaf $\mathcal{R}$; any sheaf of $\mathcal{R}$-modules isomorphic to $\mathcal{R}^m$ will be called a **free sheaf** of $\mathcal{R}$-modules **of rank** $m$.
 
 Note that the stalk $\mathcal{R}^m_p$ at a point $p$ is just the set of $m$-tuples of elements of $\mathcal{R}\_p$; and elements $R \in \mathcal{R}^m_p$ will be considered as column vectors
-\begin{equation}R = \begin{pmatrix} r_1\\ r_2\\ \dots\\ r_m\end{pmatrix}\end{equation}
+\begin{equation}R = \begin{pmatrix} r_1\\\\ r_2\\\\ \dots\\\\ r_m\end{pmatrix}\end{equation}
