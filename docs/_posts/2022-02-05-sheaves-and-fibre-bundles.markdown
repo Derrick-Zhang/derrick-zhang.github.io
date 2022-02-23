@@ -44,4 +44,7 @@ Given a presheaf, we can construct a sheaf using a process called **sheafificati
 A direct set is given by $\langle I, \le \rangle$. $\\{A_i \| i \in I \\}$ is a family of objects indexed by $i$ and $f_{ij}: A_i \to A_j$ is a homomorphism for any $i \le j$ such that
 - $f_{ii} = {\rm id}\_{A_i}$ 
 - $f_{ik} = f_{jk} \circ f_{ij}$, for $i \le j \le k$
-Then, the pair $\langle A_i, f_{ij}\rangle$ is called a **direct system** over $I$. The **direct limit** of a direct system is given by $\lim$
+
+Then, the pair $\langle A_i, f_{ij}\rangle$ is called a **direct system** over $I$. The **direct limit** of a direct system is given by $\lim A_i$, which is a disjoint union of $A_i$ quotient by an equivalence relation. We say $x_i \in A_i$ and $x_j \in A_j$ are equivalent if there exists $k \in I$ with $i,j \le k$ such that $f_{ik}(x_i) = f_{jk}(x_j)$.
+
+The above definition of direct limit is for the category of sets. For arbitrary categories, still $\langle X_i, f_{ij} \rangle$ are direct systems in that category. A **target** is $\langle X, \phi_i \rangle$, $\phi_i: X_i \to X$ such that $\phi_i = \phi_j \circ f_{ij}$. Then the direct limit is a target $\langle X, \phi_i\rangle$ such that for any target $\langle Y, \psi_i\rangle$, there exists a unique morphism $u: X \to Y$ such that the following diagram commutes.
