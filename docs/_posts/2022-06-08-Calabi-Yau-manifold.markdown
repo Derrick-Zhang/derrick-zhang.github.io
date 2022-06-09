@@ -32,6 +32,8 @@ N(X,Y) = [X,Y] + J[JX, Y] + J[X, JY] - [JX, JY]
 
 <span style="color:blue">Exercise: derive the component of Nijenhuis tensor.</span>
 
+<span style="color:red">Answer: $N^\mu\_{~\rho \sigma} = J^\mu\_{~\nu}(\partial\_\rho J^\nu\_{~\sigma} - \partial\_\sigma J^\nu\_{~\rho}) + J^\nu\_{~\sigma} \partial\_\nu J^\mu\_{~\rho} - J^\nu\_\rho \partial\_\nu J^\mu\_{~\sigma}$.</span> 
+
 ### Complex manifold
 If $M$ is a complex manifold, the complex structure $J$ is a constant tensor field and the Nijenhuis tensor field vanishes.
 
