@@ -17,7 +17,7 @@ J_p = \begin{pmatrix} i I_m & 0 \\\\ 0 & - i I_m\end{pmatrix}
 ### Almost complex manifolds
 Let $M$ be a differentiable manifold. The pair $(M,J)$ is called an **almost complex manifold** if there exists a tensor field $J$ of type (1,1) such that at each point $p$ of $M$, $J_p^2 = - {\rm id}_{T_pM}$. The tensor field $J$ is also called the **almost complex structure**.
 
-Let $(M,J)$ be an almost complex manifold. If the Lie bracket of any holomorphic vector fields $X,Y$ is again a holomorphic vector field, the almost complex structure $J$ is said to be **integrable**.
+Let $(M,J)$ be an almost complex manifold. If the Lie bracket of any holomorphic vector fields $X,Y$ is again a holomorphic vector field, the almost complex structure $J$ is said to be **integrable**. We will see that this statement is equivalent to that the Nijenhuis tensor trivially vanishes. An integrable almost complex structure is called a **complex structure**.
 
 ### Nijenhuis tensor
 Given any linear map $A$ on each tangent space of $M$, the **Nijenhuis tensor** is a tensor field of rank (1,2) given by
@@ -31,6 +31,16 @@ N(X,Y) = [X,Y] + J[JX, Y] + J[X, JY] - [JX, JY]
 \end{equation}
 
 <span style="color:blue">Exercise: derive the component of Nijenhuis tensor.</span>
+
+### Complex manifold
+If $M$ is a complex manifold, the complex structure $J$ is a constant tensor field and the Nijenhuis tensor field vanishes.
+
+A theorem by Newlander and Nirenberg states that: Let $(M,J)$ be a $2m$-dimensional almost complex manifold. If $J$ is integrable, the manifold $M$ is a complex manifold with the almost complex structure $J$.
+
+In summary we have all the following three are equivalent
+- Integrable almost complex structure
+- Vanishing Nijenhuis tensor field
+- Complex manifold
 
 
 ### Hermitian manifolds
