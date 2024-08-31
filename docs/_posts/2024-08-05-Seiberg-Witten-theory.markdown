@@ -5,8 +5,6 @@ date:   2024-08-05 10:39:30 -0000
 categories: physics
 ---
 
-# Seiberg-Witten Theory
-
 ## Overview
 
 We consider a 4d $\mathcal{N}=2$ supersymmetric gauge theory with gauge group $SU(2)$, with or without matter fields, and study its **low energy effective theory**. The fields of the microscopic $SU(2)$ theory can be described as follows.
