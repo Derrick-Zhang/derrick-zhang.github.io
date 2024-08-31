@@ -24,7 +24,7 @@ where the $SU(2)$ indices are suppressed.
 To study the low energy effective theory, let us study the vacua of the $SU(2)$ theory, which is given by the following conditions
 \begin{equation}
 \begin{aligned}
-    &\frac{1}{g^2}[\phi, \phi^\dagger] + (q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) - \frac{1}{2}\mathrm{tr}(q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) \mathbb{I}_2 = 0,\\\\
+    &\frac{1}{g^2}[\phi, \phi^\dagger] + (q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) - \frac{1}{2}\mathrm{tr}(q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) \mathbb{I}_2 = 0,\\
     &q_i \tilde{q}^i - \frac{1}{2}\mathrm{tr}(q_i \tilde{q}^i) \mathbb{I}_2 = 0,\quad
     (\phi + m_i \mathbb{I}_2) q_i = 0, \quad \tilde{q}^i (\phi + m_i \mathbb{I}_2) = 0.
 \end{aligned}
@@ -33,12 +33,12 @@ To study the low energy effective theory, let us study the vacua of the $SU(2)$ 
 In general, the theory admits a **Coulomb branch**, where
 \begin{equation}
     \langle\phi\rangle = \begin{pmatrix}
-        a & 0 \\\\
+        a & 0 \\
         0 & -a
     \end{pmatrix}, \quad \tilde{q}^i = \begin{pmatrix}
         0 & 0 
     \end{pmatrix}, \quad q_i  = \begin{pmatrix}
-        0\\\\0
+        0\\0
     \end{pmatrix}.
 \end{equation}
 On the Coulomb branch, the gauge group $SU(2)$ is broken to $U(1)$ for $a \neq 0$. A gauge invariant way to label the vacua is to use
@@ -59,7 +59,7 @@ Defining $a_D = \partial \mathcal{F}/\partial a$, the metric on the moduli can b
 To understand the low energy theory, we just need the information of $\mathcal{F}(a)$.
 Classically, we have
 \begin{equation}
-    \mathcal{F}_{\mathrm{cl}}(a) = \frac{1}{2}\tau_{UV} a^2.
+    \mathcal{F}\_{\mathrm{cl}}(a) = \frac{1}{2}\tau\_{UV} a^2.
 \end{equation}
 However, the gauge coupling $\tau$ receives quantum corrections, from one-loop renormalization and instantons. Hence, $\mathcal{F}(a)$ would also receive quantum corrections.
 
@@ -71,7 +71,7 @@ The one-loop renormalization of the gauge coupling is given by
 \end{equation}
 In an $\mathcal{N}=2$ gauge theory, the vector multiplet contains one vector field, one complex scalar and two Weyl fermions, both in the adjoint representation. Each hypermultiplet contains two scalars and two Weyl fermions, in the same representation. Therefore, we have
 \begin{equation}
-    b = 2 C(\mathbf{adj}) - 2\sum_i C(\mathbf{R}_i).
+    b = 2 C(\mathbf{adj}) - 2\sum\_i C(\mathbf{R}\_i).
 \end{equation}
 For $SU(2)$ with $N_f$ flavors, we have $b = 4 - N_f$.
 On the Coulomb branch, the $SU(2)$ gauge theory is generally broken to a $U(1)$ gauge theory and the gauge coupling is related as follows,
@@ -143,10 +143,10 @@ When $u \to e^{2\pi i} u$, we have
 Therefore, the monodromy at infinity is given by
 \begin{equation}
     M\_\infty = \begin{pmatrix}
-        -1 & b\\
+        -1 & b\\\\
         0 & -1
     \end{pmatrix} = \begin{pmatrix}
-        -1 & 4 - N\_f\\
+        -1 & 4 - N\_f\\\\
         0 & - 1
     \end{pmatrix} = - T^{-(4-N\_f)}.
 \end{equation}
@@ -158,10 +158,10 @@ Roughly speaking, as we vary $u$ on the $u$-plane, some massive particles would 
 
 The $N_f = 0$ case is discussed in Michael's talk, and will be briefly reviewed below, where a magnetic monopole becomes massless at $u = \Lambda_0^2$, and a dyon becomes massless at $u = - \Lambda_0^2$, leading to two singularities. For $N_f \neq 0$, the analysis depends the value of the bare masses of the hypermultiplets.
 
-If all bare masses are zero, then there are no other singularities at weak coupling $|a| > |\Lambda_{N_f}|$. All the singularities lie within the strongly coupled region, governed by the global symmetries. We will discuss this in details, in examples.
+If all bare masses are zero, then there are no other singularities at weak coupling $\|a\| > \|\Lambda_{N_f}\|$. All the singularities lie within the strongly coupled region, governed by the global symmetries. We will discuss this in details, in examples.
 
-The number of singularities can be easily determined if the bare masses are large, $|m_i| \ge |\Lambda_{N_f}|$. 
-There will be other singularities in the weak coupling region $|a| > |\Lambda_{N_f}|$, more specifically, at $|a| = |m_i|$, which can be seen as follows. In the effective theory, we can get the physical masses of $q, \tilde{q}$ by expanding the superpotential,
+The number of singularities can be easily determined if the bare masses are large, $\|m_i\| \ge \|\Lambda_{N_f}\|$. 
+There will be other singularities in the weak coupling region $\|a\| > \|\Lambda_{N_f}\|$, more specifically, at $\|a\| = \|m_i\|$, which can be seen as follows. In the effective theory, we can get the physical masses of $q, \tilde{q}$ by expanding the superpotential,
 \begin{equation}
     W = \sum\_i \begin{pmatrix}
         \tilde{q}^i\_1 & \tilde{q}^i\_2
