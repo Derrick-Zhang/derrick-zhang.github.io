@@ -23,22 +23,22 @@ where the $SU(2)$ indices are suppressed.
 
 To study the low energy effective theory, let us study the vacua of the $SU(2)$ theory, which is given by the following conditions
 \begin{equation}
-\begin{aligned}
-    &\frac{1}{g^2}[\phi, \phi^\dagger] + (q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) - \frac{1}{2}\mathrm{tr}(q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) \mathbb{I}_2 = 0,\\\\
+    &\frac{1}{g^2}[\phi, \phi^\dagger] + (q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) - \frac{1}{2}\mathrm{tr}(q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) \mathbb{I}_2 = 0,
+\end{equation}
+\begin{equation}
     &q_i \tilde{q}^i - \frac{1}{2}\mathrm{tr}(q_i \tilde{q}^i) \mathbb{I}_2 = 0,\quad
     (\phi + m_i \mathbb{I}_2) q_i = 0, \quad \tilde{q}^i (\phi + m_i \mathbb{I}_2) = 0.
-\end{aligned}
 \end{equation}
 
 In general, the theory admits a **Coulomb branch**, where
 \begin{equation}
     \langle\phi\rangle = \begin{pmatrix}
-        a & 0 \\
+        a & 0 \\\\
         0 & -a
     \end{pmatrix}, \quad \tilde{q}^i = \begin{pmatrix}
         0 & 0 
     \end{pmatrix}, \quad q_i  = \begin{pmatrix}
-        0\\0
+        0\\\\ 0
     \end{pmatrix}.
 \end{equation}
 On the Coulomb branch, the gauge group $SU(2)$ is broken to $U(1)$ for $a \neq 0$. A gauge invariant way to label the vacua is to use
