@@ -14,24 +14,24 @@ We consider a 4d $\mathcal{N}=2$ supersymmetric gauge theory with gauge group $S
 
 In particular, we are interested in the case where there are $N_f$ hypermultiplets, in the fundamental representation of $SU(2)$. The theory is called $SU(2)$ theory with $N_f$ flavors. We will limit ourselves to this case.
 There is also a **superpotential** term
-$$
+\begin{equation}
     W = \sum_i \tilde{Q}^i \Phi Q_i + \sum_i m_i \tilde{Q}^i Q_i,
-$$
+\end{equation}
 where the $SU(2)$ indices are suppressed.
 
 ### Supersymmetric vacua
 
 To study the low energy effective theory, let us study the vacua of the $SU(2)$ theory, which is given by the following conditions
-$$
+\begin{equation}
 \begin{aligned}
     &\frac{1}{g^2}[\phi, \phi^\dagger] + (q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) - \frac{1}{2}\mathrm{tr}(q_i q^{\dagger i} - \tilde{q}_i^\dagger \tilde{q}^i) \mathbb{I}_2 = 0,\\
     &q_i \tilde{q}^i - \frac{1}{2}\mathrm{tr}(q_i \tilde{q}^i) \mathbb{I}_2 = 0,\quad
     (\phi + m_i \mathbb{I}_2) q_i = 0, \quad \tilde{q}^i (\phi + m_i \mathbb{I}_2) = 0.
 \end{aligned}
-$$
+\end{equation}
 
 In general, the theory admits a **Coulomb branch**, where
-$$
+\begin{equation}
     \langle\phi\rangle = \begin{pmatrix}
         a & 0 \\
         0 & -a
@@ -40,86 +40,86 @@ $$
     \end{pmatrix}, \quad q_i  = \begin{pmatrix}
         0\\0
     \end{pmatrix}.
-$$
+\end{equation}
 On the Coulomb branch, the gauge group $SU(2)$ is broken to $U(1)$ for $a \neq 0$. A gauge invariant way to label the vacua is to use
-$$
+\begin{equation}
     u = \frac{1}{2}\langle \mathrm{tr}(\phi^2) \rangle = a^2.
-$$
+\end{equation}
 
 In certain cases, the theory could also admit a **Higgs branch**, where $\phi = 0$, and $q, \tilde{q}$ acquire non-zero vacuum expectation values, and the gauge symmetry is completely broken. Such branches appear when $m_i = 0$ for $N_f \ge 2$. The geometry of the Higgs branch is found by setting to zero the $D$-terms, dividing by the gauge group $SU(2)$, and asking for the superpotential to be stationary. A theory on the Higgs branch does not contain monopoles or dyons. The classical moduli space is a **hyperkähler manifold**, with metric uniquely determined by the symmetries of the theory. Moreover, the metric does not receive quantum corrections.
 
 We will be mainly focusing on the Coulomb branch. On this branch, the low energy effective theory depends on a **prepotential** $\mathcal{F}(a)$ such that
-$$
+\begin{equation}
     \tau(a) = \frac{\partial^2 \mathcal{F}(a)}{\partial a^2}.
-$$
+\end{equation}
 Defining $a_D = \partial \mathcal{F}/\partial a$, the metric on the moduli can be written as
-$$
+\begin{equation}
     ds^2 = \mathrm{Im}(d a_D\, d\bar{a}).
-$$
+\end{equation}
 To understand the low energy theory, we just need the information of $\mathcal{F}(a)$.
 Classically, we have
-$$
+\begin{equation}
     \mathcal{F}_{\mathrm{cl}}(a) = \frac{1}{2}\tau_{UV} a^2.
-$$
+\end{equation}
 However, the gauge coupling $\tau$ receives quantum corrections, from one-loop renormalization and instantons. Hence, $\mathcal{F}(a)$ would also receive quantum corrections.
 
 ### The one-loop renormalization of the gauge coupling
 
 The one-loop renormalization of the gauge coupling is given by
-$$
+\begin{equation}
     \mu \frac{d}{d\mu} g = - \frac{g^3}{(4\pi)^2} \left[\frac{11}{3} C(\mathbf{adj}) - \frac{2}{3} \sum_f C(\mathbf{R}_f) - \frac{1}{3} \sum_s C(\mathbf{R}_s)\right] \equiv - \frac{g^3}{(4\pi)^2} \cdot b.
-$$
+\end{equation}
 In an $\mathcal{N}=2$ gauge theory, the vector multiplet contains one vector field, one complex scalar and two Weyl fermions, both in the adjoint representation. Each hypermultiplet contains two scalars and two Weyl fermions, in the same representation. Therefore, we have
-$$
+\begin{equation}
     b = 2 C(\mathbf{adj}) - 2\sum_i C(\mathbf{R}_i).
-$$
+\end{equation}
 For $SU(2)$ with $N_f$ flavors, we have $b = 4 - N_f$.
 On the Coulomb branch, the $SU(2)$ gauge theory is generally broken to a $U(1)$ gauge theory and the gauge coupling is related as follows,
-$$
+\begin{equation}
     \tau_{U(1)} = 2 \tau_{SU(2)} = \frac{8\pi i}{g^2} + \frac{\theta}{\pi},
-$$
+\end{equation}
 where $g$ is the gauge coupling in the original $SU(2)$ theory. Let $\tau$ be the $U(1)$ gauge coupling, and we have
-$$
+\begin{equation}
     \mu \frac{d}{d\mu} \tau = \frac{i}{\pi} \cdot b = \frac{i}{\pi} (4 - N_f),
-$$
+\end{equation}
 for $SU(2)$ theory with $N_f$ flavors. We will consider the cases where $N_f = 0, 1, 2, 3$, so that the theory is asymptotically free. The theory with $N_f = 4$ is also of great interest because the $\beta$-function vanishes. Integrating this equation, we get
-$$
+\begin{equation}
     \tau(a)  = \tau_{UV} + \frac{i}{\pi}\cdot b \ln \left(\frac{a}{\Lambda_{UV}}\right) = \frac{i}{\pi}\cdot  b \ln \left(\frac{a}{\Lambda_{N_f}}\right),
-$$
+\end{equation}
 where
-$$ 
+\begin{equation}
     \Lambda_{N_f}^b = \mu^b \exp(\pi i \tau(\mu)),
-$$
+\end{equation}
 is the **dynamically generated scale**, that is invariant under the change of the energy scale of the theory, and $b= 4-N_f$. Due to $\mathcal{N}=2$ supersymmetry, this does not receive perturbative corrections higher than one-loop. However, we can still add non-perturbative corrections due to instantons.
 
 ### Instantons
 
 A configuration of instanton number $k$ is proportional to the $k$-instanton factor
-$$
+\begin{equation}
     \exp\left(\frac{-8 \pi^2 k}{g^2}\right) = \left(\frac{\Lambda_{N_f}}{a}\right)^{bk} = \left(\frac{\Lambda_{N_f}}{a}\right)^{k(4-N_f)}.
-$$
+\end{equation}
 Also with the help of the $U(1)_R$ anomaly as discussed in Seiberg and Witten's original paper, we can write
-$$
+\begin{equation}
     \tau(a) = \frac{i}{\pi} \cdot b \ln \left(\frac{a}{\Lambda_{N_f}}\right) + \sum_{k=0}^\infty \frac{c_k}{2\pi i} \left(\frac{\Lambda_{N_f}}{a}\right)^{bk}.
-$$
+\end{equation}
 Then integrate it over $a$ twice, we obtain the expansion of the prepotential
-$$
+\begin{equation}
     \mathcal{F}(a) = - \frac{b}{2\pi i} a^2 \ln \left(\frac{a}{\Lambda_{N_f}}\right) + \sum_{k=1}^\infty \frac{d_k}{2\pi i} \left(\frac{\Lambda_{N_f}}{a}\right)^{bk} \cdot a^2.
-$$
+\end{equation}
 The problem is how to solve for these coefficients $d_k$'s.
 
 One useful identity is called the renormalization group relation.
-$$
+\begin{equation}
     2\pi i \Lambda_{N_f} \frac{\partial}{\partial \Lambda_{N_f}} \mathcal{F}(a, \Lambda_{N_f}) = bu. 
-$$
+\end{equation}
 One immediate way to justify this is to notice that from the definition of the dynamically generated scale, we have
-$$
+\begin{equation}
     2\pi i \Lambda_{N_f} \frac{\partial}{\partial \Lambda_{N_f}} = 2b \cdot \frac{\partial}{\partial \tau_{UV}}.
-$$
+\end{equation}
 In the ultraviolet, the prepotential is given by
-$$
+\begin{equation}
     \mathcal{F}_{\mathrm{cl}} = \frac{1}{2}\tau_{UV} a^2 = \frac{1}{2} \tau_{UV} \cdot u. 
-$$
+\end{equation}
 Therefore, we can obtain an expansion of $u$ in terms of $a$,
 $$
     u = a^2 \left[1 + \sum_{k=1}^\infty k d_k \left(\frac{\Lambda_{N_f}}{a}\right)^{bk}\right].
