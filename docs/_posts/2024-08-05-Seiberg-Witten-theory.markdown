@@ -33,7 +33,7 @@ To study the low energy effective theory, let us study the vacua of the $SU(2)$ 
 In general, the theory admits a **Coulomb branch**, where
 \begin{equation}
     \langle\phi\rangle = \begin{pmatrix}
-        a & 0 \\\\
+        a & 0 \\ \\
         0 & -a
     \end{pmatrix}, \quad \tilde{q}^i = \begin{pmatrix}
         0 & 0 
