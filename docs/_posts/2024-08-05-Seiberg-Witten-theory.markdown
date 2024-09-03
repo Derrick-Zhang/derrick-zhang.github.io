@@ -33,8 +33,7 @@ To study the low energy effective theory, let us study the vacua of the $SU(2)$ 
 In general, the theory admits a **Coulomb branch**, where
 \begin{equation}
     \langle\phi\rangle = \begin{pmatrix}
-        a & 0 \\\\
-        0 & -a
+        a & 0 \\\\ 0 & -a
     \end{pmatrix}, \quad \tilde{q}^i = \begin{pmatrix}
         0 & 0 
     \end{pmatrix}, \quad q_i  = \begin{pmatrix}
@@ -143,11 +142,9 @@ When $u \to e^{2\pi i} u$, we have
 Therefore, the monodromy at infinity is given by
 \begin{equation}
     M\_\infty = \begin{pmatrix}
-        -1 & b \\\\
-        0 & -1
+        -1 & b \\\\ 0 & -1
     \end{pmatrix} = \begin{pmatrix}
-        -1 & 4 - N\_f \\\\
-        0 & - 1
+        -1 & 4 - N\_f \\\\ 0 & - 1
     \end{pmatrix} = - T^{-(4-N\_f)}.
 \end{equation}
 
@@ -166,8 +163,7 @@ There will be other singularities in the weak coupling region $\|a\| > \|\Lambda
     W = \sum\_i \begin{pmatrix}
         \tilde{q}^i\_1 & \tilde{q}^i\_2
     \end{pmatrix} \begin{pmatrix}
-        a & 0\\\\
-        0 & -a
+        a & 0\\\\0 & -a
     \end{pmatrix} \begin{pmatrix}
         q\_i^1\\\\q\_i^2 
     \end{pmatrix} + \sum\_i m\_i \begin{pmatrix}
